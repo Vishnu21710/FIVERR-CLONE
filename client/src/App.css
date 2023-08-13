@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom_span{
+    @apply rounded-full text-sm font-semibold border-2 border-white p-1 hover:bg-white hover:text-black transition-colors ease-in-out cursor-pointer
+}
+
+  
